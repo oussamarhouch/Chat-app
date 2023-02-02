@@ -20,7 +20,6 @@ function App() {
         </Col>
       </Row>
 
-      {/* create routes here */}
       <Switch>
         <Route exact path="/" component={Account} />
         <Route exact path="/free" component={FreeComponent} />
